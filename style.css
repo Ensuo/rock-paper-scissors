@@ -1,0 +1,26 @@
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    background-color: rgb(235, 112, 112);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    height: 20vh;
+    width: 40vh;
+    font-size: 32px;
+}
+
+.btn-container{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-evenly;
+    width: 100%;
+}

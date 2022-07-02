@@ -52,3 +52,8 @@ function game(times){
         console.log(playRound(player, computer));
     }
 }
+
+const buttons = document.querySelectorAll("button");
+buttons[0].onclick = () => alert(playRound('rock', computerPlay()));
+buttons[1].onclick = () => alert(playRound('paper', computerPlay()));
+buttons[2].onclick = () => alert(playRound('scissors', computerPlay()));
