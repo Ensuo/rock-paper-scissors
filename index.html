@@ -4,14 +4,29 @@
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <title>POtato</title>
+        
     </head>
     <body>
+        <div class ="top-container">
+            <div class ="player">
+                <img src="images/player.jpeg">
+                <p class = "score" id="playerscore">Score: 0</p>
+            </div>
+            <div class="results">
+                <p id="last-match">Result: Nothing yet</p>
+            </div>
+            <div class ="computer">
+                <img src="images/computer.jpeg">
+                <p class = "score" id="computerscore">Score: 0</p>
+            </div>
+        </div>
+
         <div class="btn-container">
-            <button id ="rock">Rock</button>
+            <input type="image" id="rock" src="images/rock.png" />
             <span></span>
-            <button id="paper">Paper</button>
+            <input type="image" id="paper" src="images/paper.jpeg" />
             <span></span>
-            <button id="scissors">Scissors</button>
+            <input type="image" id="scissors" src="images/scissors.png" />
         </div>
 
     <script src = "script.js"></script>        
